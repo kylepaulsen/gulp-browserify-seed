@@ -7,7 +7,7 @@ var uglify = require('gulp-uglify');
 
 var MAIN_PATH = './src/main.js';
 var BUILD_PATH = './build.js';
-var WATCH_PATH = './src/*.js';
+var WATCH_PATH = './src/**/*.js';
 
 gulp.task('dev', function() {
     gulp.src(MAIN_PATH)
